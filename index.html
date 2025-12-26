@@ -3,12 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sarh | Live Tech Courses</title>
+  <title>Sharfia | Live Tech Courses</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- HERO -->
 <section class="hero">
   <div class="hero-content fade-in">
     <h1>Build Real Tech Skills</h1>
@@ -22,70 +21,194 @@
 <section class="about reveal">
   <h2>Meet Your Instructor</h2>
   <p class="name">Sharfia</p>
-  <p class="subtitle">B.Sc CS & Data Analytics – IIT</p>
+  <p class="subtitle">
+    B.Sc. Computer Science & Data Analytics • IIT <br>
+    AI Foundations Certified • IIT
+  </p>
 
   <div class="about-grid">
     <div class="about-card">
-      🎓 AI Foundations – IIT  
+      🎓 Strong academic foundation in Computer Science, Data Analytics & AI
     </div>
+
     <div class="about-card">
-      💼 Internships at 2–3 Tech Organizations  
+      💼 Hands-on internship experience at multiple tech organizations
     </div>
+
     <div class="about-card">
-      🧠 Cleared Multiple Internship & Job Interviews  
+      🧠 Successfully cleared real-world internship & job interviews
     </div>
+
     <div class="about-card">
-      🚀 Built Websites & a Fully Functional AI App  
+      🚀 Built multiple production-ready websites & a fully functional AI-based application
+    </div>
+
+    <div class="about-card">
+      📊 Business-focused mindset with exposure to management & MBA-level concepts
+    </div>
+
+    <div class="about-card">
+      🌱 Passionate about teaching practical skills, not just theory
     </div>
   </div>
+
+  <p class="about-note">
+    “My goal is simple — help you build real projects, understand how things work in the industry,  
+    and confidently apply for internships, jobs, or freelance opportunities.”
+  </p>
 </section>
+
 
 <!-- COURSES -->
 <section id="courses" class="courses reveal">
   <h2>Courses Offered</h2>
 
+  <!-- COURSE CARDS (CLICKABLE) -->
   <div class="course-grid">
 
-    <div class="course-card glow">
+    <div class="course-card glow" onclick="openModal('web')">
       <h3>Web Development</h3>
-      <p>HTML • CSS • JS • Deployment</p>
+      <p>Build, deploy & manage real websites</p>
       <span>₹1,999 | ₹3,499 | ₹4,999</span>
     </div>
 
-    <div class="course-card glow">
+    <div class="course-card glow" onclick="openModal('app')">
       <h3>App Development</h3>
-      <p>Android / Cross-Platform Apps</p>
+      <p>Create real mobile applications</p>
       <span>₹2,499 | ₹3,999 | ₹5,499</span>
     </div>
 
-    <div class="course-card glow">
+    <div class="course-card glow" onclick="openModal('dns')">
       <h3>DNS, Hosting & Publishing</h3>
-      <p>Live Website + Play Store</p>
+      <p>Deploy websites & publish apps</p>
       <span>₹1,499 | ₹2,999 | ₹4,499</span>
     </div>
 
-    <div class="course-card glow">
+    <div class="course-card glow" onclick="openModal('analytics')">
       <h3>Business Analytics</h3>
-      <p>Excel • Dashboards • Insights</p>
+      <p>Excel, dashboards & insights</p>
       <span>₹1,999 | ₹3,499 | ₹4,999</span>
     </div>
 
-    <div class="course-card glow">
+    <div class="course-card glow" onclick="openModal('marketing')">
       <h3>Digital Marketing</h3>
-      <p>SEO • Ads • Growth Strategy</p>
+      <p>SEO, ads & growth strategies</p>
       <span>₹1,999 | ₹3,499 | ₹4,999</span>
     </div>
 
-    <div class="course-card glow">
+    <div class="course-card glow" onclick="openModal('career')">
       <h3>Job & Internship Guidance</h3>
-      <p>Resume • LinkedIn • Referrals</p>
+      <p>Resume, LinkedIn & applications</p>
       <span>₹999 | ₹2,499 | ₹3,999</span>
     </div>
 
   </div>
 </section>
 
-<!-- WHY -->
+
+<div class="modal" id="web">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('web')">&times;</span>
+    <h2>Web Development – Build Your First Website</h2>
+    <p class="modal-sub">Beginner to practical, real-world web development.</p>
+    <ul>
+      <li>🌐 Internet & browser basics</li>
+      <li>🧱 HTML structure</li>
+      <li>🎨 CSS layouts & responsiveness</li>
+      <li>⚙️ JavaScript & DOM</li>
+      <li>📱 Mobile-first design</li>
+      <li>🗂️ Git & GitHub</li>
+      <li>🚀 Hosting & deployment</li>
+      <li>🧠 Industry best practices</li>
+    </ul>
+    <p class="highlight">🎯 Outcome: Live portfolio-ready website</p>
+  </div>
+</div>
+
+
+<div class="modal" id="app">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('app')">&times;</span>
+    <h2>App Development – Build Real Apps</h2>
+    <p class="modal-sub">Learn how real mobile apps are built.</p>
+    <ul>
+      <li>📱 App fundamentals</li>
+      <li>🎨 UI/UX basics</li>
+      <li>⚙️ App logic & navigation</li>
+      <li>🔌 API usage</li>
+      <li>🧪 Testing & debugging</li>
+      <li>🚀 Publishing preparation</li>
+    </ul>
+    <p class="highlight">🎯 Outcome: Functional mobile application</p>
+  </div>
+</div>
+
+
+<div class="modal" id="dns">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('dns')">&times;</span>
+    <h2>DNS, Hosting & Publishing</h2>
+    <p class="modal-sub">Most important real-world deployment skills.</p>
+    <ul>
+      <li>🌐 DNS (A, CNAME, TXT)</li>
+      <li>🔗 Domain setup</li>
+      <li>🖥️ Hosting & servers</li>
+      <li>🚀 Website deployment</li>
+      <li>📱 Play Store & Amazon publishing</li>
+      <li>⚠️ Policy & mistakes</li>
+    </ul>
+    <p class="highlight">🎯 Outcome: Confident deployment & publishing</p>
+  </div>
+</div>
+
+
+<div class="modal" id="analytics">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('analytics')">&times;</span>
+    <h2>Business Analytics & Dashboards</h2>
+    <p class="modal-sub">Data-driven decision making skills.</p>
+    <ul>
+      <li>📊 Excel (basic to advanced)</li>
+      <li>📈 Dashboards & KPIs</li>
+      <li>🧠 Business insights</li>
+      <li>📉 Case studies</li>
+    </ul>
+    <p class="highlight">🎯 Outcome: Real business dashboards</p>
+  </div>
+</div>
+
+<div class="modal" id="marketing">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('marketing')">&times;</span>
+    <h2>Digital Marketing</h2>
+    <p class="modal-sub">Learn how tech products grow.</p>
+    <ul>
+      <li>📢 Marketing fundamentals</li>
+      <li>🔍 SEO basics</li>
+      <li>📱 Social media strategy</li>
+      <li>📊 Analytics</li>
+    </ul>
+    <p class="highlight">🎯 Outcome: Growth & marketing understanding</p>
+  </div>
+</div>
+
+<div class="modal" id="career">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('career')">&times;</span>
+    <h2>Job & Internship Guidance</h2>
+    <p class="modal-sub">Crack real opportunities.</p>
+    <ul>
+      <li>📄 Resume building</li>
+      <li>💼 Portfolio & GitHub</li>
+      <li>🔗 LinkedIn optimization</li>
+      <li>📨 Cold emails</li>
+      <li>🧠 Interview mindset</li>
+    </ul>
+    <p class="highlight">🎯 Outcome: Confident applications & interviews</p>
+  </div>
+</div>
+
+
 <section class="why reveal">
   <h2>Why Learn With Me?</h2>
   <div class="why-grid">
@@ -98,8 +221,7 @@
 
 <!-- CTA -->
 <section class="cta reveal">
-  <h2>Limited Seats – First Batch</h2>
-  <p>No Recorded Lectures • High Interaction</p>
+  <h2>Limited Seats – First Batch</h2
   <a href="https://wa.me/91XXXXXXXXXX" class="btn big">DM to Enroll</a>
 </section>
 
